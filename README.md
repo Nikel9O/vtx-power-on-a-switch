@@ -26,6 +26,8 @@ Betaflight servo output is read by the trinket M0 which changes VTX power accord
 1. Remap a betaflight resource to SERVO 1 (i used the LED_STRIP 1 as it usually have a dedicated timer).
 1. Setup a servo and its AUX channel in the servo tab (expert mode enabled) .
 ### Soldering
+![connection diagram](/connection.png)
+Format: ![connection diagram](/connection.png)
 1. solder together RX and TX on the Trinket M0 and connect them to the VTX smart audio wire.
 1. solder Trinket M0 battery pad to a 5v output on the FC, solder Trinket M0 ground to a ground on the FC.
 1. Solder Trinket pin "~1" (also labeled as "Aout") to the LED pad on the Flight controller.

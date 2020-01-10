@@ -4,8 +4,6 @@ import busio
 import time
 from digitalio import DigitalInOut, Direction, Pull
 
-#lettura pulsazione pwm (pin, ritorna una lista di letture
-#pulses = pulseio.PulseIn(board.A0, maxlen=10)
 ###########################################
 #VTX_PROTOCOL#
 ###########################################

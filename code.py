@@ -161,7 +161,7 @@ pulses = pulseio.PulseIn(board.A0,maxlen=10,idle_state=False)
 while True:
     while len(pulses) < 10:
         pass
-    pulses_2 = [pulses[i] for i in range(0,10) if pulses[i] < 3000] #pulisco dai valori inutili (1 su due è tipo 18000-19000)
+    pulses_2 = [pulses[i] for i in range(0,10) if pulses[i] < 3000] #clean useless values (1 out of 2 is inverted 18000-19000)
     average_val = sum(pulses_2)/len(pulses_2)
     actual_val  = min(servo_levels, key=lambda x:abs(x-average_val))
     #print("avg ",average_val)

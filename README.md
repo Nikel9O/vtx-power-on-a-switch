@@ -34,6 +34,6 @@ Betaflight servo output is read by the trinket M0 which changes VTX power accord
 *Tip*: put connectors on Trinket M0 "~1" pin, the VTX smart audio wire and the flight controller smart audio pin to use BF vtx_control when not flying (ie. changing vtx channel)
 
 ## Credits:
-* The idea of soldering together TX and RX pins came from [NightHawk32](https://github.com/NightHawk32/SmartAudio-testing)
-* TBS smart audio protocol specs come from: [TBS](https://www.team-blacksheep.com/tbs_smartaudio_rev09.pdf)
-* IRC Tramp protocol specs are from: [Betaflight source code](https://github.com/betaflight/betaflight/)
+* The idea of soldering together TX and RX pins: [NightHawk32](https://github.com/NightHawk32/SmartAudio-testing)
+* TBS smart audio protocol specs: [TBS](https://www.team-blacksheep.com/tbs_smartaudio_rev09.pdf)
+* IRC Tramp protocol specs: [Betaflight source code](https://github.com/betaflight/betaflight/)

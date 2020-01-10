@@ -8,6 +8,7 @@ This project uses a circuit-python board ([Adafruit Trinket M0](https://www.adaf
 
 Should work on any servo-capable betaflight version
 Should work on SA v 2.0 by only changing the power table (untested)
+IRC Tramp protocol partially implemented but untested
 
 ## Why this project:
 I was surprised by the lack of interest on such a simple but game-changing feature [#3094](https://github.com/betaflight/betaflight/issues/3094) from BF devs.
